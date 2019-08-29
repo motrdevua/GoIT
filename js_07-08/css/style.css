@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ddd;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 534px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background: #eee;
+    box-shadow: 0 0 5px 1px rgba(204,204,204,0.7);
+}
+
+
+/*----TABS----*/
+
+
+.tabs-menu{
+    margin: 0 auto;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background: linear-gradient( #d2d0d2 50%, #e8e6e8 100%);
+    border: 1px solid #aaa;
+    border-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+    /* box-shadow: 0 0 5px 5px rgba(204,204,204,0.7) inset; */
+}
+.tab{
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    list-style-type: none;
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-radius: 3px 10px 0px 0px;
+    background: linear-gradient(#F0F0F0 49%, #EEE 50%, #E6E6E6 51%, #EEE 100%);
+}
+.tab a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px 10px 0px 0px;
+    color: black;
+    font: 13px Arial;
+}
+.tab a:visited{
+    color: black;
+}
+.tab:hover{
+    background: linear-gradient(#E5E5E5 49%, #E6E6E7 50%, #DFDFDF 51%, #EAEAEA 100%);
+}
+.active{
+    position: relative;
+    top: 1px;
+    border-radius: 3px 10px 0px 0px;
+    background-color: #fff;
+}
+.tabs-box{
+    border: 1px solid #aaa;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 592px;
+    height: 300px;
+    background: #fff;
+    box-shadow: 0 0 1px 1px rgba(204,204,204,0.7);
+}
+.tab-content{
+    margin: 20px;
+    font: 13px Arial;
+}
+#tab-conent-1{
+}
+#tab-conent-2{
+    display: none;
+}
+#tab-conent-3{
+    display: none;
+}
+
+
+/*  FORMS */
+
+
+form{
+    border: 1px solid #aaa;
+    margin: 3px;
+    width: 592px;
+    height: 181px;
+    border-radius: 0px 0px 5px 5px;
+    background: #fff;
+    box-shadow: 0 0 1px 1px rgba(204,204,204,0.7);
+}
+.field{
+    padding-top: 24px;
+    padding-left: 20px;
+}
+label{
+    display: inline-block;
+    width: 60px;
+    font: 10px Arial;
+}
+.info{
+    display: none;
+    padding: 7px;
+    margin-left: 10px;
+    text-align: center;
+    font: 10px Arial;
+    border: 1px solid #aaa;
+    border-radius: 25px/30px;
+    box-shadow: 0 0 15px 5px rgba(204,204,204,0.7);
+}
+
+
+/*----BUTTON----*/
+
+
+.help input{
+    margin-left: 84px;
+    margin-top: 20px;
+    height: 20px;
+    width: 70px;
+    background: linear-gradient(#F0F0F0 49%, #EEE 50%, #E6E6E6 51%, #EEE 100%);
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    outline: none;
+    font: 10px Arial;
+}
+.help input:hover{
+    cursor: pointer;
+}
+.help input:active{
+    cursor: pointer;
+    background: linear-gradient(#E5E5E5 49%, #E6E6E7 50%, #DFDFDF 51%, #EAEAEA 100%);
+}

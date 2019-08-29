@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/photo.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 1215px;
+    height: 36px;
+}
+/* верхнее меню */
+.header {
+    width: 1215px;
+    height: 36px;
+    background-color: #074f8f;
+    background-image: url(../img/headbg.png);
+}
+.topmenu {
+    float: right;
+    list-style-type: none;
+    height: 36px;
+    text-align: center;
+    display: inline;
+    overflow: hidden;
+}
+.topmenu li {
+    display: inline-block;
+}
+.topmenu li a{
+    display: inline-block;
+    padding: 9px 13px 11px 13px;
+    text-decoration: none;
+    text-align: center;
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    color: #60b5ed;
+}
+.topmenu li a:hover{
+    display: inline-block;
+    padding: 9px 13px 11px 13px;
+    text-decoration: none;
+    text-align: center;
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    color: #fefefe;
+    background-color: #4eabda;
+    cursor: pointer;
+}
+/* разделяющая линия */
+.vline {
+    float: right;
+    height: 31px;
+    width: 1px;
+    margin: 2px 13px 3px 13px;
+    background: #56a2dc;
+    overflow: hidden;
+}
+/* кнопки входа и предложений */
+.topbuttons {
+    float: right;
+    margin-right: 13px;
+    list-style-type: none;
+    height: 36px;
+    text-align: center;
+    color: #fefefe;
+    display: inline;
+    overflow: hidden;
+}
+.enter {
+    float: right;
+    padding-left: 13px;
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    overflow: hidden;
+}
+.enter:hover{
+    background: linear-gradient(to top, #2e7ac4, #51b1dc);
+    cursor: pointer;
+}
+.enter a{
+    display: inline-block;
+    padding: 9px 13px 11px 13px;
+    color: #fefefe;
+}
+.propositions {
+    float: right;
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    overflow: hidden;
+}
+.propositions:hover{
+    background: linear-gradient(to top, #2e7ac4, #51b1dc);
+}
+.offer{
+    float: right;
+}
+.flag{
+    float: left;
+}
+.flag img{
+    padding: 6px 0px 7px 10px;
+}
+.offer a{
+    display: block;
+    padding: 10px 13px 10px 13px;
+    color: #fefefe;
+}
+/* формы */
+.content {
+    position: absolute;
+    top: 36px;
+    width: 1215px;
+    height: 1028px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.formhead{
+    position: absolute;
+    top: 213px;
+    left: 327px;
+    width: 560px;
+    height: 62px;
+    background-color: rgba(0,0,0,0.7);
+}
+.formhead p{
+    margin: 16px;
+    text-align: center;
+    font: 24px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    color: white;
+}
+/*  */
+.facebook{
+    margin: 36px 142px 10px 142px;
+    width: 276px;
+    height: 35px;
+    background: linear-gradient(to top, rgba(42,66,118,1), rgba(61,87,146,1));
+    border-top: 1px solid #7889b7;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px rgba(42,66,118,0.7);
+}
+.facebook:hover{
+    background: linear-gradient(to top, rgba(37,58,103,1), rgba(61,87,146,1));
+    box-shadow: 0px 0px 5px 0px #3079ff;
+    cursor: pointer;
+}
+.facebook:active{
+    /* box-shadow: inset 0px 0px 10px 0px #3079ff; */
+    box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.f{
+    float: left;
+}
+.f a{
+    display: inline-block;
+    padding: 4px 14px 3px 14px;
+    text-align: center;
+    text-decoration: none;
+    font: 24px 'Lucida Grande', 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    font-weight: 700;
+    color: #fffefc;
+}
+.liwf a{
+    float: left;
+    padding: 9px 33px 9px 33px;
+    text-align: center;
+    text-decoration: none;
+    font: 14px 'Lucida Grande', 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    font-weight: 900;
+    color: #fffefc;
+}
+.fline{
+    float: left;
+    height: 34px;
+    width: 1px;
+    background-color: #203c6e;
+    border-left: 1px solid #4c68a9;
+}
+/*  */
+.ouline{
+    margin: 20px 130px 35px 142px;
+}
+.line{
+    float: left;
+    margin-top: 13px;
+    height: 1px;
+    width: 123px;
+    text-align: center;
+    background-color: black;
+    border-top: 1px solid #666666;
+}
+.ou{
+    float: left;
+    padding: 5px;
+    text-align: center;
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    color: #999999;
+}
+.form{
+    position: absolute;
+    top: 277px;
+    left: 327px;
+    width: 560px;
+    height: 549px;
+    background-color: rgba(0,0,0,0.7);
+}
+/*  */
+.in{
+    position: absolute;
+    top: 137px;
+    left: 142px;
+}
+.fname input,
+.lname input,
+.email input,
+.pass input,
+.cpass input {
+    width: 257px;
+    height: 32px;
+    margin-bottom: 20px;
+    padding: 2px 0px 1px 19px;
+    outline: none;
+    background-color: rgba(0,0,0,0.5);
+    border-bottom: 1px solid #484948;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 1px;
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    color: #fffbfb;
+    box-shadow: inset 0px -7px 3px 3px rgba(25,25,25,0.2);
+}
+.fname input:hover,
+.lname input:hover,
+.email input:hover,
+.pass input:hover,
+.cpass input:hover {
+    box-shadow: 0px 0px 10px 1px #3079ff;
+}
+/*  */
+.fname input:focus,
+.lname input:focus,
+.email input:focus,
+.pass input:focus,
+.cpass input:focus {
+    outline:none;
+    background-color: rgba(27,82,136,0.8);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgba(104,155,204,1);
+    box-shadow: inset 0px 0px 5px 2px rgba(29,26,22,0.2);
+    box-shadow: inset 0px 0px 2px 1px rgba(0,0,0,0.1);
+    border-radius: 1px;
+    box-shadow: 0px 0px 5px 2px rgba(79,163,243,0.77);
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+}
+/*  */
+.fname input:focus::-webkit-input-placeholder,
+.lname input:focus::-webkit-input-placeholder,
+.email input:focus::-webkit-input-placeholder,
+.pass input:focus::-webkit-input-placeholder,
+.cpass input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+/*  */
+.agree label{
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    color: #cccccc;
+}
+.agree label:hover{
+    cursor: pointer;
+}
+/*  */
+.sub input{
+    outline: none;
+    border-top: 0px;
+    border-left:0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-radius: 3px;
+    margin-top: 23px;
+    margin-left: 64px;
+    width: 150px;
+    height: 36px;
+    background: linear-gradient(to top, rgba(46,122,196,1), rgba(80,174,219,1));
+    box-shadow: 0px 0px 2px 0px rgba(101,168,228,0.77);
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    color: rgba(255,255,255,1);
+}
+.sub input:hover{
+    background: linear-gradient(to top, rgba(39,105,167,1), rgba(80,174,219,1));
+    box-shadow: 0px 0px 5px 0px #3079ff;
+    cursor: pointer;
+}
+.sub input:active{
+    box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.1);
+    font: 14px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+    color: rgba(255,255,255,1);
+}
+/*  */
+.rule {
+    position: absolute;
+    top: 507px;
+    left: 132px;
+    text-align: center;
+    color: #cccccc;
+    font: 11px 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+}

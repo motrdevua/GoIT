@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body>
+    <div class="box">
+        <header>
+            <div class="header-box">
+                <h1>Serum</h1>
+                <h2>Advanced Wavetable Synthesizer</h2>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="content clearfix">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Forums</a></li>
+                <li class="dropdown">
+                    <a href="#">Products</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Serum</a></li>
+                        <li><a href="#">Nerve</a></li>
+                        <li><a href="#">Cthulhu</a></li>
+                        <li class="dropdown">
+                            <a href="#">Future Plugins</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Nav 3.4.1</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Nav 3.4.2</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Nav 3.4.2.1</a></li>
+                                        <li><a href="#">Nav 3.4.2.2</a></li>
+                                        <li><a href="#">Nav 3.4.2.3</a></li>
+                                        <li><a href="#">Nav 3.4.2.4</a></li>
+                                        <li><a href="#">Nav 3.4.2.5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Nav 3.4.3</a></li>
+                                <li><a href="#">Nav 3.4.4</a></li>
+                                <li><a href="#">Nav 3.4.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">LFO Tool</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sing up</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrapper-carousel">
+            <div class="carousel">
+                <div class="jcarousel">
+                    <ul>
+                        <li><img src="img/1.jpg" alt="" /></li>
+                        <li><img src="img/2.jpg" alt="" /></li>
+                        <li><img src="img/3.jpg" alt="" /></li>
+                        <li><img src="img/4.jpg" alt="" /></li>
+                        <li><img src="img/5.jpg" alt="" /></li>
+                        <li><img src="img/6.jpg" alt="" /></li>
+                        <li><img src="img/7.jpg" alt="" /></li>
+                    </ul>
+                </div>
+                <button class="jcarousel-prev"><img src="img/arrow_prev.png" alt="" /></button>
+                <button class="jcarousel-next"><img src="img/arrow_next.png" alt="" /></button>
+            </div>
+            <div class="jcarousel-text">
+                <ul>
+                    <li>
+                        <h1>IMPORT YOUR OWN AUDIO / CREATE CUSTOM WAVETABLES WITH EASE</h1>
+                        <p>&nbsp</p>
+                        <p>Serum has a Wavetable editor built right in- you can create your own wavetables in a variety of ways. Import audio directly from audio files - Serum has a variety of methods and options for analyzing audio for breaking it apart into individual waveforms. You can import single-cycle wavetables of course, as well as many at once (with in-built sorting options, or manual re-ordering). Morph between various wavetables using standard linear interpolation (crossfading) or via harmonic/spectral morphing. Draw directly on the waveform, with optional grid-size snapping and a variety of shape tools. Generate or modify waveforms using FFT (additive). Create or process waveforms using formula functions. Processing menu options allow you to do the other tasks you would want, such as apply fades, crossfades, normalize, export, and much more.</p>
+                    </li>
+                    <li>
+                        <h1>ULTRA-CLEAN OSCILLATORS</h1>
+                        <p>&nbsp</p>
+                        <p>Playback of wavetables requires digital resampling to play different frequencies. Without considerable care and a whole lot of number crunching, this process will create audible artifacts. Artifacts mean that you are (perhaps unknowingly) crowding your mix with unwanted tones / frequencies. Many popular wavetable synthesizers are astonishingly bad at suppressing artifacts - even on a high-quality setting some create artifacts as high as -36 dB to -60 dB (level difference between fundamental on artifacts) which is well audible, and furthermore often dampening the highest wanted audible frequencies in the process, to try and suppress this unwanted sound. In Serum, the native-mode (default) playback of oscillators operates with an ultra high-precision resampling, yielding an astonishingly inaudible signal-to-noise (for instance, -150 dB on a sawtooth played at 1 Khz at 44100)! This requires a lot of calculations, so Serum’s oscillator playback has been aggressively optimized using SSE2 instructions to allow for this high-quality playback without taxing your CPU any more than the typical (decent quality) soft synth already does. Load up Serum and we think you’ll be able to notice both what you hear (solid high frequencies, extending flat all the way up to the limits of hearing) as well as what you don’t hear (no unwanted mud or aliasing gibberish- just good, clean sound).</p>
+                    </li>
+                    <li>
+                        <h1>MODULATION - WORK THE WAY YOU WANT TO</h1>
+                        <p>&nbsp</p>
+                        <p>The modulation system allows for drag and drop connections between mod sources and destinations. Want an LFO controlling a filter cutoff? Simply drag the LFO title to the cutoff knob. This LFO->Filter connection will now appear in the Mod Matrix as well. In other words, you have two views/approaches for creating and modifying your modulations: sometimes a list is nice, other times you just want the job done fast and easy.</p>
+                    </li>
+                    <li>
+                        <h1>REALTIME WAVETABLE MANIPULATION</h1>
+                        <p>&nbsp</p>
+                        <p>In addition to moving through the set of wavetables (up to 256 make up a single oscillator), you can manipulate the waveform itself in a separate realtime process referred to as Warp. This allows for FM/AM/RM/Oscillator Sync and many other ways to modify the waveform, including “Remap” modes - a graph editor for drawing your own custom table manipulations.</p>
+                    </li>
+                    <li>
+                        <h1>FILTER TYPES</h1>
+                        <p>&nbsp</p>
+                        <p>Serum includes all of the filter types found in LFOTool in addition to some brand-new ones. Flangers, Phasers, and Comb filters all of which can key-track to the musical note you play. Dual filter types let you control or morph between filter types. Get creative with atypical processes for filters such as downsampling, or the unique filter types found nowhere before, such as the dirty-sounding French LPF.</p>
+                    </li>
+                    <li>
+                        <h1>BUILT-IN SUITE OF EFFECTS</h1>
+                        <p>&nbsp</p>
+                        <p>An effects rack with 10 effects modules lets you get your sound all the way to the finish line inside Serum. Effects can be re-ordered to any configuration you want. Virtually all effect parameters are also available as modulation destinations. This is especially useful on monophonic synth sounds. For example, apply an LFO to control reverb size or dry/wet, or velocity to control distortion amount. Many of these effects and modes were built just for Serum, so there are many unique effects to choose from, such as Hyper, which simulates (additional) unison amounts, or a dual-waveshaper which allows for a distortion you can morph between two separate wave shapes.</p>
+                    </li>
+                    <li>
+                        <h1>ADVANCED UNISON</h1>
+                        <p>&nbsp</p>
+                        <p>Serum will let you stack a single oscillator to use up to 16 voices. Each of the wavetable oscillators have a number of unison advanced parameters. Stack settings allow for note (e.g. octave) layering to get a fuller sound for a single note-press. Set the unison voices to all have their unique waveform at once with the Unison WT Pos setting, or have them all skewed in a different way with the unison Warp control. A variety of unison tuning modes per-oscillator let you get the stack sound blooming or swarming like you want.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="nice-select">
+                <span class="current">Other Products</span>
+                <ul class="list">
+                    <li class="option selected">Serum</li>
+                    <li class="option">Nerve</li>
+                    <li class="option disabled">Cthulhu</li>
+                    <li class="option">LFO Tool</li>
+                </ul>
+            </div>
+            <div class="main">
+                <p>jQuery checkboxs</p>
+                <p>Download demo for:</p>
+            	<form action="#">
+                	<div>
+                        <label for="ch1">Windows</label>
+                        <input type="checkbox" class="niceCheck" id="ch1" tabindex="1" />
+                    </div>
+                	<div>
+                        <label for="ch2">Mac OS</label>
+                        <input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" />
+                    </div>
+                	<div>
+                        <label for="ch3">Linux</label>
+                        <input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" />
+                    </div>
+            	</form>
+            </div>
+            <div class="cssmain">
+                <p>CSS checkboxs</p>
+                <p>Download demo for:</p>
+                <form class="csscheck" action="#">
+                    <div>
+                        <input type="checkbox" class="cssCheck" id="ch5" tabindex="1" />
+                        <label for="ch5">Windows</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="cssCheck" checked="checked" id="ch6" tabindex="2" value="2" />
+                        <label for="ch6">Mac OS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="cssCheck" id="ch7" checked="checked" disabled="disabled" />
+                        <label for="ch7">Linux</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.checkbox.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-autoscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-control.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-core.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-pagination.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-scrollintoview.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.nice-select.js"></script>
+    <script type="text/javascript" src="js/navmenu.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p class="title">STOPWATCH TIMER</p>
+        <div class="timer">
+            <ul class="timer-display">
+                <li class="num"><p class="hours">00</p></li>
+                <li class="num"><p class="minutes">00</p></li>
+                <li class="num"><p class="seconds">00</p></li>
+                <li class="num"><p class="mseconds">000</p></li>
+            </ul>
+            <form class="timer-buttons">
+                <input type="button" id="start" value="START">
+                <input type="button" id="split" value="SPLIT">
+                <input type="button" id="stop" value="STOP">
+            </form>
+        </div>
+        <div class="box">
+            <div id="list">
+                <ul id="splitlist">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/stopwatch.js"></script>
+</body>
+</html>

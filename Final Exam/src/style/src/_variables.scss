@@ -1,0 +1,38 @@
+//---------------------- FONTS ------------------------//
+
+$robotoblack: 'robotoblack', Arial, Tahoma, sans-serif;
+$robotoblack_italic: 'robotoblack_italic', Arial, Tahoma, sans-serif;
+$robotobold: 'robotobold', Arial, Tahoma, sans-serif;
+$robotobold_italic: 'robotobold_italic', Arial, Tahoma, sans-serif;
+$robotoitalic: 'robotoitalic', Arial, Tahoma, sans-serif;
+$robotolight: 'robotolight', Arial, Tahoma, sans-serif;
+$robotolight_italic: 'robotolight_italic', Arial, Tahoma, sans-serif;
+$robotomedium: 'robotomedium', Arial, Tahoma, sans-serif;
+$robotomedium_italic: 'robotomedium_italic', Arial, Tahoma, sans-serif;
+$robotoregular: 'robotoregular', Arial, Tahoma, sans-serif;
+$robotothin: 'robotothin', Arial, Tahoma, sans-serif;
+$robotothin_italic: 'robotothin_italic', Arial, Tahoma, sans-serif;
+$montserratregular: 'montserratregular', Arial, Tahoma, sans-serif;
+$montserratbold: 'montserratbold', Arial, Tahoma, sans-serif;
+
+//---------------------- COLORS ------------------------//
+
+$black: #1A1915;
+$grey1: #333333;
+$grey2: #666666;
+$grey3: #999999;
+$grey4: #CCCCCC;
+$grey5: #EEEEEE;
+$grey6: #FBFBFB;
+$white: white;
+$red: #FF4E50;
+$blue: #4E73DB;
+$green: #1CD7AD;
+$yellow1: #FFA507;
+$yellow2: #FF8523;
+
+//---------------------- DEVICES @media ------------------------//
+
+$mobile: "(min-width: 320px) and (max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 959px)";
+$desktop: "(min-width: 960px)";

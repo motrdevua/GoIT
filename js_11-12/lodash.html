@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- PROFILE TEMPLATE -->
+
+    <script type="text/template" id="profile">
+        <div class="box1">
+            <div class="boxlines">
+                <header>
+                    <h2><%= name %></h2>
+                    <div><%= photo %></div>
+                    <h3><%= studentOf %></h3>
+                </header>
+                <div class="wishlist">
+                    <h4><%= wishlistTitle %></h4>
+                        <ul class="list">
+                            <li><p><%= wishWhyFirst %></p></li>
+                            <li><p><%= wishWhySecond %></p></li>
+                            <li><p><%= wishWhyThird %></p></li>
+                        </ul>
+                </div>
+                <div class="contacts">
+                    <h4><%= contactsTitle %></h4>
+                    <p><%= contactFirstTitle %></p>
+                    <p><%= contactFirst %></p>
+                    <p><%= contactSecondTitle %></p>
+                    <div><%= contactSecond %></div>
+                </div>
+                <div class="feedback">
+                    <h4><%= feedTitle %></h4>
+                    <p><%= feed %></p>
+                </div>
+            </div>
+        </div>
+    </script>
+
+<!-- PROFILE TEMPLATE END -->
+
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/lodash/4.11.2/lodash.js"></script>
+    <script type="text/javascript" src="js/scriptLoDash.js"></script>
+
+</body>
+</html>

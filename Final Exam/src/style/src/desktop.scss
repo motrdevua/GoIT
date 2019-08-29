@@ -1,0 +1,251 @@
+@media #{$desktop} {
+
+    //------------------------ HEADER --------------------------
+
+    .header{
+        margin: 0 auto;
+    }
+    .wrapper {
+        .container {
+            max-width: 960px;
+            height: 700px;
+            .authorization {
+                position: relative;
+                top: 38px;
+                left: 774px;
+                width: 186px;
+                overflow: hidden;
+            }
+            .logo {
+                position: relative;
+                top: 9px;
+                left: -32px;
+                width: 250px;
+                overflow: hidden;
+            }
+            .tagline {
+                margin: 153px 0 0 227px;
+                width: 490px;
+                font: 52px $montserratbold;
+            }
+            .comment {
+                margin: 27px 0 0 274px;
+                width: 400px;
+                font: 24px $robotolight;
+                line-height: 21px;
+            }
+            .findbutton {
+                margin: 38px 0 0 360px;
+                padding: 12px 0 11px 0;
+                width: 226px;
+                background-color: $red;
+                border-radius: 20px;
+                &:hover {
+                    width: 222px;
+                }
+            }
+        }
+    }
+
+    //------------------------ SLIDERS --------------------------
+
+    .sliders {
+        max-width: 960px;
+        height: 500px;
+        margin: 0 auto;
+        &__title {
+            margin: 94px 0 0 0;
+        }
+        &__box {
+            position: relative;
+            display: inline-block;
+            margin: 34px 0px 0 12px;
+            width: 300px;
+            height: 400px;
+        }
+        .slidelist {
+            height: 400px;
+            &__item {
+                float: left;
+                height: 400px;
+                width: 300px;
+                .background {
+                    height: 400px;
+                    width: 300px;
+                    background-size: cover;
+                    background-position: top center;
+                }
+                .step {
+                    &__button {
+                        margin: 229px 0 0 20px;
+                    }
+                    &__title {
+                        margin: 15px 0 0 19px;
+                    }
+                    &__description {
+                        width: 260px;
+                        margin: 11px 0 0 19px;
+                    }
+                    &__button--mod {
+                        margin: 259px 0 0 22px;
+                    }
+                }
+            }
+            &__item--first {
+                .background {
+                    background: url('../img/dstep1.png') no-repeat;
+                }
+            }
+            &__item--second {
+                .background {
+                    background: url('../img/dstep2.png') no-repeat;
+                }
+            }
+            &__item--third {
+                .background {
+                    background: url('../img/dstep3.png') no-repeat;
+                }
+            }
+        }
+        .prev-slide {
+            top: 152px;
+            left: 20px;
+        }
+        .next-slide {
+            top: 152px;
+            left: 249px;
+        }
+    }
+
+    //------------------------ PARTNERS --------------------------
+
+    .partners {
+        max-width: 960px;
+        &__title {
+            margin: 56px 0 0 270px;
+            width: 404px;
+        }
+        &__box {
+            margin-top: -22px;
+            height: 241px;
+        }
+        &__list {
+            width: 950px;
+            margin-top: -2px;
+            margin-left: -2px;
+        }
+        .list__item {
+            display: inline-block;
+            height: 259px;
+            width: 234px;
+            .description {
+                margin: 12px 0 0 1px;
+            }
+        }
+        .list__item--second {
+            position: relative;
+            left: 242px;
+            top: 34px;
+            margin-top: 20px;
+        }
+        .list__item--third {
+            position: relative;
+            left: -236px;
+            margin-top: 20px;
+        }
+        .list__item--fourth {
+            .description {
+                margin: 12px 0 0 1px;
+            }
+        }
+        &__button {
+            margin: 85px 0 0 377px;
+            width: 188px;
+        }
+    }
+
+    //------------------------- IDEAS --------------------------
+
+    .ideas {
+        max-width: 960px;
+        padding-bottom: 100px;
+        &__titile {
+            margin: 96px 0 0 302px;
+            width: 340px;
+        }
+        &__titile--bottom {
+            margin: 91px 0 0 302px;
+        }
+        &__gallery {
+            left: 10px;
+            height: 980px !important;
+            margin: 28px 0 auto;
+        }
+        &__item {
+            margin: 5px 13px 15px 0px;
+            width: 31.8%;
+            height: 310px;
+        }
+        &__item:nth-child(5),
+        &__item:nth-child(6) {
+            width: 65%;
+            height: 310px;
+        }
+        &__text {
+            margin-top: 30px;
+        }
+        &__input {
+            width: 223px;
+            margin: 37px 0 0 268px;
+        }
+        &__search-button {
+            display: inline-block;
+            width: 160px;
+            margin: 10px 0 0 6px;
+            &:hover {
+                width: 156px;
+            }
+            &:active {
+                width: 156px;
+            }
+        }
+    }
+
+    //------------------------ FOOTER --------------------------
+
+    .footer {
+        position: relative;
+        &__wrapper {
+            max-width: 960px;
+            height: 177px;
+        }
+        &__logo {
+            display: inline-block;
+            margin: 36px 0 0 3px;
+        }
+        &__company {
+            display: inline-block;
+            margin: 38px 0 0 95px;
+        }
+        &__menu {
+            position: absolute;
+            margin: 10px 0 0 244px;
+        }
+        .menu__item {
+            display: block;
+            margin-right: 9px;
+            margin-bottom: 5px;
+        }
+        &__partners {
+            display: inline-block;
+            margin: 0 0 0 85px;
+        }
+        &__dev-logo {
+            position: absolute;
+            top: 38px;
+            display: inline-block;
+            margin: 1px 0 0 367px;
+            @include sprite($devlogo2);
+        }
+    }
+}

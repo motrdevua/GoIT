@@ -1,0 +1,198 @@
+@media #{$mobile} {
+
+    //------------------------ HEADER --------------------------
+
+.header{
+    margin: 0 auto;
+}
+.wrapper {
+    .container {
+        height: 540px;
+        max-width: 320px;
+        .authorization {
+            width: 186px;
+            padding: 20px 67px 20px 67px;
+        }
+        .logo {
+            margin-top: 95px;
+        }
+        .tagline {
+            margin: 27px 0 0 2px;
+            font: 30px $montserratbold;
+        }
+        .comment {
+            margin: 9px 0 0 51px;
+            width: 218px;
+            font: 18px $robotolight;
+            line-height: 21px;
+        }
+    }
+}
+
+    //------------------------ SLIDERS --------------------------
+
+.sliders {
+    max-width: 320px;
+    &__title {
+        margin: 34px 0 0 -1px;
+    }
+    &__box {
+        margin: 14px auto -4px;
+        width: 300px;
+        height: 240px;
+    }
+    .slidelist {
+        height: 240px;
+        &__item {
+            float: left;
+            height: 240px;
+            width: 300px;
+            .background {
+                height: 240px;
+                width: 300px;
+                background-size: cover;
+                background-position: top center;
+            }
+            .step {
+                &__button {
+                    margin: 69px 0 0 20px;
+                }
+                &__title {
+                    margin: 15px 0 0 19px;
+                }
+                &__description {
+                    width: 260px;
+                    margin: 11px 0 0 19px;
+                }
+                &__button--mod {
+                    margin: 99px 0 0 21px;
+                }
+            }
+        }
+        &__item--first {
+            .background {
+                background: url('../img/mstep1.png') no-repeat;
+            }
+        }
+        &__item--second {
+            .background {
+                background: url('../img/mstep2.png') no-repeat;
+            }
+        }
+        &__item--third {
+            .background {
+                background: url('../img/mstep3.png') no-repeat;
+            }
+        }
+    }
+}
+
+    //------------------------ PARTNERS --------------------------
+
+.partners {
+    max-width: 320px;
+    &__title {
+        margin: 38px 0 0 26px;
+        width: 260px;
+    }
+    &__list {
+        width: 260px;
+    }
+    .list__item {
+        display: block;
+        .link {
+            margin-top: 13px;
+        }
+        .description {
+            margin: 12px 0 0 14px;
+        }
+    }
+    .list__item--first {
+        height: 202px;
+    }
+    .list__item--second {
+        margin-top: 27px;
+        height: 235px;
+    }
+    .list__item--third {
+        margin: 27px 0 0 -2px;
+    }
+    .list__item--fourth {
+        margin: 27px 0 0 -2px;
+    }
+    &__button {
+        margin: 27px 0 0 18px;
+        width: 277px;
+    }
+}
+
+    //------------------------ IDEAS --------------------------
+
+.ideas {
+    max-width: 320px;
+    padding-bottom: 40px;
+    &__titile {
+        margin: 34px 0 0 19px;
+        width: 280px;
+    }
+    &__titile--bottom {
+        margin: 26px 0 0 19px;
+    }
+    &__gallery {
+        left: 10px;
+        margin: 12px 0 auto;
+        height: 910px !important;
+    }
+    &__item {
+        width: 95%;
+        height: 121px;
+    }
+    &__text {
+        margin: 8px 0 0 -3px;
+    }
+    &__input {
+        width: 263px;
+        margin: 15px 0 0 18px;
+    }
+    &__search-button {
+        width: 280px;
+        margin: 10px 0 0 19px;
+        &:hover {
+            width: 276px;
+        }
+        &:active {
+            width: 276px;
+        }
+    }
+}
+
+    //------------------------ FOOTER --------------------------
+
+.footer {
+    &__wrapper {
+        max-width: 320px;
+        height: 157px;
+    }
+    &__logo {
+        margin: 16px 0 0 87px;
+    }
+    &__company {
+        margin: 12px 0 0 124px;
+    }
+    &__menu {
+        margin: 1px 0 0 62px;
+    }
+    .menu__item {
+        display: inline-block;
+        margin-right: 9px;
+    }
+    &__partners {
+        margin: 13px 0 0 125px;
+    }
+    &__dev-logo {
+        display: block;
+        margin: 14px 0 0 103px;
+        @include sprite($devlogo);
+    }
+}
+}

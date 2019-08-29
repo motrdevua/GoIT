@@ -1,0 +1,241 @@
+@media #{$tablet} {
+
+    //------------------------ HEADER --------------------------
+
+    .header{
+        margin: 0 auto;
+    }
+    .wrapper {
+        .container {
+            max-width: 768px;
+            height: 700px;
+            .authorization {
+                position: relative;
+                top: 38px;
+                left: 549px;
+                width: 186px;
+                overflow: hidden;
+            }
+            .logo {
+                position: relative;
+                top: 9px;
+                left: 13px;
+                width: 250px;
+                overflow: hidden;
+            }
+            .tagline {
+                margin: 154px 0 0 136px;
+                width: 490px;
+                font: 52px $montserratbold;
+            }
+            .comment {
+                margin: 27px 0 0 182px;
+                width: 400px;
+                font: 24px $robotolight;
+                line-height: 21px;
+            }
+            .findbutton {
+                margin: 37px 0 0 269px;
+                padding: 12px 0 11px 0;
+                width: 226px;
+                background-color: $red;
+                border-radius: 20px;
+                &:hover {
+                    width: 222px;
+                }
+            }
+        }
+    }
+
+    //------------------------ SLIDERS --------------------------
+
+    .sliders {
+        max-width: 768px;
+        height: 500px;
+        margin: 0 auto;
+        &__title {
+            margin: 94px 0 0 21px;
+        }
+        &__box {
+            position: relative;
+            display: inline-block;
+            margin: 34px 0 0 12px;
+            width: 236px;
+            height: 400px;
+        }
+        .slidelist {
+            height: 400px;
+            &__item {
+                float: left;
+                height: 400px;
+                width: 236px;
+                .background {
+                    height: 400px;
+                    width: 236px;
+                    background-size: cover;
+                    background-position: top center;
+                }
+                .step {
+                    &__button {
+                        margin: 211px 0 0 20px;
+                    }
+                    &__title {
+                        margin: 15px 0 0 19px;
+                    }
+                    &__description {
+                        width: 202px;
+                        margin: 11px 0 0 19px;
+                    }
+                    &__button--mod {
+                        margin: 259px 0 0 21px;
+                    }
+                }
+            }
+            &__item--first {
+                .background {
+                    background: url('../img/tstep1.png') no-repeat;
+                }
+            }
+            &__item--second {
+                .background {
+                    background: url('../img/tstep2.png') no-repeat;
+                }
+            }
+            &__item--third {
+                .background {
+                    background: url('../img/tstep3.png') no-repeat;
+                }
+            }
+        }
+        .prev-slide {
+            top: 39px;
+            left: 20px;
+        }
+        .next-slide {
+            top: 39px;
+            left: 185px;
+        }
+    }
+
+    //------------------------ PARTNERS --------------------------
+
+    .partners {
+        max-width: 768px;
+        &__title {
+            margin: 57px 0 0 179px;
+            width: 404px;
+        }
+        &__list {
+            width: 520px;
+            height: 500px;
+            margin: 31px 0 0 131px;
+        }
+        .list__item {
+            display: inline-block;
+            height: 259px;
+            width: 253px;
+            .description {
+                margin: 12px 0 0 9px;
+            }
+        }
+        .list__item--second {
+            position: absolute;
+            top: 259px;
+            left: 0px;
+        }
+        .list__item--fourth {
+            position: absolute;
+            top: 259px;
+            left: 256px;
+        }
+        &__button {
+            margin: 31px 0 0 287px;
+            width: 188px;
+        }
+    }
+
+    //------------------------ IDEAS --------------------------
+
+    .ideas {
+        max-width: 768px;
+        padding-bottom: 100px;
+        &__titile {
+            margin: 96px 0 0 213px;
+            width: 340px;
+        }
+        &__titile--bottom {
+            margin: 90px 0 0 212px;
+        }
+        &__gallery {
+            left: 10px;
+            margin: 28px 0 auto;
+            height: 980px !important;
+        }
+        &__item {
+            margin: 5px 13px 15px 0px;
+            width: 31.5%;
+            height: 310px;
+        }
+        &__item:nth-child(5),
+        &__item:nth-child(6) {
+            width: 65%;
+            height: 310px;
+        }
+        &__text {
+            margin: 29px 0 0 11px;
+        }
+        &__input {
+            width: 223px;
+            margin: 37px 0 0 178px;
+        }
+        &__search-button {
+            display: inline-block;
+            width: 160px;
+            margin: 10px 0 0 6px;
+            &:hover {
+                width: 156px;
+            }
+            &:active {
+                width: 156px;
+            }
+        }
+    }
+
+    //------------------------ FOOTER --------------------------
+
+    .footer {
+        position: relative;
+        &__wrapper {
+            max-width: 768px;
+            height: 157px;
+        }
+        &__logo {
+            display: inline-block;
+            margin: 36px 0 0 39px;
+        }
+        &__company {
+            display: inline-block;
+            margin: 38px 0 0 81px;
+        }
+        &__menu {
+            position: absolute;
+            margin: 10px 0 0 266px;
+        }
+        .menu__item {
+            display: block;
+            margin-right: 9px;
+            margin-bottom: 5px;
+        }
+        &__partners {
+            display: inline-block;
+            margin: 0 0 0 96px;
+        }
+        &__dev-logo {
+            position: absolute;
+            top: 38px;
+            display: inline-block;
+            margin: 1px 0 0 118px;
+            @include sprite($devlogo2);
+        }
+    }
+}

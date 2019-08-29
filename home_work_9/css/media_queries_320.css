@@ -1,0 +1,110 @@
+@media (min-width: 320px) and (max-width: 479px) {
+    .wrapper {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+    .iphone {
+        display: none;
+    }
+    .home {
+        margin: 0 auto;
+        margin-top: 23px;
+        width: 105px;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        transition-delay: 0.05s;
+    }
+    .home__topmenu{
+        display: none;
+        transition: all 0.2s ease;
+        transition-delay: 0.05s;
+    }
+    .home:hover > .home__topmenu {
+        display: block;
+    }
+    .home:hover {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 22px;
+        width: 244px;
+        height: 257px;
+        background-color: rgba(54, 41, 62, 0.9);
+        border: 1px solid #051116;
+        border-radius: 8px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        z-index: 2;
+    }
+
+    .home__button {
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 2px;
+        margin-bottom: 4px;
+        width: 47px;
+        border-bottom: 2px solid #edbfff;
+        color: white;
+        font: 24px 'LeagueGothicRegular', Arial, Tahoma, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .home__topmenu__item {
+        text-align: center;
+        list-style-type: none;
+        border-top: 1px solid #523f5a;
+        border-bottom: 1px solid #36283e;
+    }
+    .home__topmenu__item:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .home__topmenu__link {
+        display: block;
+        padding-top: 4px;
+        padding-bottom: 7px;
+        color: white;
+        font: 24px 'LeagueGothicRegular', Arial, Tahoma, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .home__topmenu__link:hover {
+        display: block;
+        padding-top: 4px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #edbfff;
+    }
+    .home__topmenu__itemlast {
+        text-align: center;
+        list-style-type: none;
+        border-top: 1px solid #523f5a;
+    }
+    .home__topmenu__itemlast:hover {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 0px 0px 8px 8px;
+    }
+    .home__topmenu__linklast {
+        display: block;
+        padding-top: 4px;
+        padding-bottom: 7px;
+        color: white;
+        font: 24px 'LeagueGothicRegular', Arial, Tahoma, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .home__topmenu__linklast:hover {
+        border-bottom: 2px solid #edbfff;
+        border-radius: 0px 0px 8px 8px;
+    }
+    .roll__text {
+        display: none;
+    }
+    .fullnews {
+        display: none;
+    }
+    .footerlist {
+        display: none;
+    }
+}
